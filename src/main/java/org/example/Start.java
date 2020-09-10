@@ -24,12 +24,14 @@ public class Start {
         int j = i == 3 ? i++ + ++i : ++i >>> 1;
         System.out.println(j);
 
-        //5 >>> 1;
+        //5 >>> 1:
+        //Antwoord: 3
 
 // H3.3
         byte h = 0b1010;
         byte g = 0b100;
         System.out.println("bytes are: " + h+g);
+        // antwoord: 104
 
 // H3.4
         int a = 80;
