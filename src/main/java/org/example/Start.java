@@ -51,7 +51,14 @@ public class Start {
         //Client client2 = new Client("Piet");
         //client2 = client1;
         //client2.name = "Joris";
-        //What is client1's name after executing this code: Jan
+        //What is client1's name after executing this code: joris
+
+        Client client1 = new Client("Jan");
+        Client client2 = new Client("Piet");
+        client2 = client1;
+        client2.firstname = "joris";
+        System.out.println(client1.firstname);
+
 
     }
 
