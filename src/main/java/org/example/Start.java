@@ -18,8 +18,6 @@ public class Start {
         int d = ++i;
         System.out.println(d);
 
-        // 0000 0001
-
 // H3.2
         int j = i == 3 ? i++ + ++i : ++i >>> 1;
         System.out.println(j);
