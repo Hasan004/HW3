@@ -36,7 +36,7 @@ public class Start {
         int tijd = 24;
         System.out.println("aantal dagen: " + a/tijd);
         System.out.println("aantal uren: " + a%tijd);
-        // dus na 3 dagen om 7 uur 's ochtends.
+        // dus na 3 dagen en 8 uur: dat komt uit op de 4e dag om 7 uur 's ochtends
 
 // H3.5
         System.out.println("Maximum " + Byte.MAX_VALUE + " en minimum " + Byte.MIN_VALUE); // MAX: 127 & MIN: -128
