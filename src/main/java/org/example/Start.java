@@ -34,8 +34,10 @@ public class Start {
 // H3.4
         int a = 80;
         int tijd = 24;
+        int huidigetijd = 23;
         System.out.println("aantal dagen: " + a/tijd);
         System.out.println("aantal uren: " + a%tijd);
+        System.out.println("dus het is dan: " + ((a%tijd)+huidigetijd-24) + " uur");
         // dus na 3 dagen en 8 uur: dat komt uit op de 4e dag om 7 uur 's ochtends
 
 // H3.5
