@@ -14,4 +14,19 @@ public class Great {
         }
     }
 
+    public int greatest(int... ints) {
+        int max = ints[0];
+        for (int i : ints) {
+            if (i > max) {
+                max = i;
+            }
+        }
+        return max;
+    }
+
+    public int factorial (int n){
+        if (n <= 1) return 1;
+        return n * factorial(n - 1);
+    }
+
 }
