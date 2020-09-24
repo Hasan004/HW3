@@ -1,4 +1,4 @@
-package lab5test;
+package org.lab5;
 
 import org.junit.Test;
 import org.lab5.Great;
